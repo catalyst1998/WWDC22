@@ -1,7 +1,6 @@
 //
 //  AppDelegate.swift
 //  WWDC
-//
 //  Created by bytedance on 2022/8/22.
 //
 

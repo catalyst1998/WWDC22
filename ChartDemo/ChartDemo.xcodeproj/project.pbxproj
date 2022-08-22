@@ -38,6 +38,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B81563528AE347D000B60E0 /* test */ = {
+			isa = PBXGroup;
+			children = (
+				2BA8EDE728ABAC6D000F225E /* ChartView.swift */,
+			);
+			path = test;
+			sourceTree = "<group>";
+		};
+		2B81563628AE3493000B60E0 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				2BABF6B428AE15F100785E10 /* SiteView.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		2B81563728AE34AE000B60E0 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				2BA8EDD928ABA757000F225E /* ChartDemoApp.swift */,
+				2BA8EDDB28ABA757000F225E /* ContentView.swift */,
+				2BABF6B228AE13F600785E10 /* Home.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
 		2BA8EDCD28ABA757000F225E = {
 			isa = PBXGroup;
 			children = (
@@ -57,11 +83,9 @@
 		2BA8EDD828ABA757000F225E /* ChartDemo */ = {
 			isa = PBXGroup;
 			children = (
-				2BA8EDD928ABA757000F225E /* ChartDemoApp.swift */,
-				2BA8EDDB28ABA757000F225E /* ContentView.swift */,
-				2BABF6B228AE13F600785E10 /* Home.swift */,
-				2BA8EDE728ABAC6D000F225E /* ChartView.swift */,
-				2BABF6B428AE15F100785E10 /* SiteView.swift */,
+				2B81563728AE34AE000B60E0 /* view */,
+				2B81563628AE3493000B60E0 /* model */,
+				2B81563528AE347D000B60E0 /* test */,
 				2BA8EDDD28ABA759000F225E /* Assets.xcassets */,
 				2BA8EDDF28ABA759000F225E /* Preview Content */,
 			);

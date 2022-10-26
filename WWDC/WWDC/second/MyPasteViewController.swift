@@ -86,18 +86,21 @@ class MyPasteViewController: UIViewController {
         
         let config = UIPasteControl.Configuration()
         
-        config.displayMode = .iconAndLabel
-        config.cornerStyle = .capsule
+        config.displayMode = .labelOnly
+        config.cornerStyle = .small
         
-        config.baseBackgroundColor = .systemGreen
+        config.baseBackgroundColor = .white
+        
+        config.baseForegroundColor = .lightGray
         
         let pasteControl = UIPasteControl(configuration: config)
         
         
-        pasteControl.frame = CGRect(x: 280, y: 100, width: 120, height: 50)
+        pasteControl.frame = CGRect(x: 250, y: 500, width: 300, height: 200)
         
         pasteControl.target = preview
-
+        
+        pasteControl.backgroundColor = .white
         return pasteControl
     }()
     

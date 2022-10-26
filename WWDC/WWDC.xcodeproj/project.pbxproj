@@ -73,8 +73,9 @@
 				2B9FD9C028B3612D00772716 /* AppDelegate.swift */,
 				2B9FD9C228B3612D00772716 /* SceneDelegate.swift */,
 				2B9FD9C428B3612D00772716 /* FirstViewController.swift */,
-				2B9FD9D828B3694400772716 /* second */,
 				2B9FD9D428B368D300772716 /* SecondViewController.swift */,
+				2B9FD9E128B36ACE00772716 /* first */,
+				2B9FD9D828B3694400772716 /* second */,
 				2B9FD9C628B3612D00772716 /* Main.storyboard */,
 				2B9FD9C928B3612E00772716 /* Assets.xcassets */,
 				2B9FD9CB28B3612E00772716 /* LaunchScreen.storyboard */,
@@ -90,7 +91,6 @@
 				2B9FD9D928B369C100772716 /* AfterPageControlViewController.swift */,
 				2B9FD9DB28B36A1200772716 /* MyCalendarViewController.swift */,
 				2B9FD9DD28B36A6B00772716 /* MyWindowViewController.swift */,
-				2B9FD9E128B36ACE00772716 /* first */,
 			);
 			path = second;
 			sourceTree = "<group>";
